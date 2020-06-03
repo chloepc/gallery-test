@@ -1,0 +1,25 @@
+.App {
+  font-family: Cambria;
+}
+.Header {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  height: 32px;
+}
+.Main {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  padding: 32px;
+}
+.Gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 16px;
+}
+.Image {
+  display: grid;
+  border: 1px solid black;
+}
